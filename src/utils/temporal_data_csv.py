@@ -19,8 +19,7 @@ def temporal_data_from_csv(data_name, data_split, bipartite=False, attacks_names
 
     # Resolve repository root: .../repo/src/utils/this_file.py → repo root = parents[2]
     repo_root = Path(__file__).resolve().parents[2]
-    # path_csv = repo_root / 'data' / 'cic_2017_processing' / data_split / f'{data_name}.csv'
-    path_csv = repo_root / 'data' / 'cic_2017_processing'  / f'{data_name}.csv'
+    path_csv = repo_root / 'data' / 'cic_2017_processing' / data_split / f'{data_name}.csv'
 
     df = pd.read_csv(path_csv, skiprows=1, header=None)
     
