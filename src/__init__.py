@@ -22,8 +22,7 @@ __all__ = [
     'TGNDataLoader',
     'TGNSVDDModelFactory',
     'TGNSVDDTrainer',
-    'TGNSVDDEvaluator',
-    'TGNSVDDExperimentRefactored'
+    'TGNSVDDEvaluator'
 ]
 
 # Try to import key components
@@ -33,7 +32,6 @@ try:
     from models.model_factory import TGNSVDDModelFactory
     from training.trainer import TGNSVDDTrainer
     from training.evaluator import TGNSVDDEvaluator
-    from experiments.tgn_svdd_experiment_refactored import TGNSVDDExperimentRefactored
     
     print("✅ TGN-SVDD package initialized successfully")
     
@@ -55,8 +53,7 @@ def get_package_info():
         'data.data_loader', 
         'models.model_factory',
         'training.trainer',
-        'training.evaluator',
-        'experiments.tgn_svdd_experiment_refactored'
+    'training.evaluator'
     ]
     
     for module in modules_to_check:
@@ -80,7 +77,7 @@ if __name__ == "__main__":
     for module in info['available_modules']:
         print(f"  ✅ {module}")
     
-    if len(info['available_modules']) >= 6:
+    if len(info['available_modules']) >= 5:
         print("\n🎉 All core modules are available!")
     else:
         print("\n⚠️  Some modules are missing (likely due to PyTorch dependencies)")
