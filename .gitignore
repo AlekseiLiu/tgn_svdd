@@ -1,0 +1,123 @@
+# TGN-SVDD Project .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+notebooks
+data
+log
+results
+scripts
+cleanup_for_public.sh
+.github/
+CONTRIBUTING.md
+cleanup_project.sh
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Data files
+data/*
+data/cic_2017_processing/*.csv
+data/cic_2017_processing/*.pkl
+data/cic_2017_processing/*.pcap
+data/**/*.csv
+data/**/*.pkl
+data/**/*.pcap
+
+# Results and logs
+results/
+logs/
+log/
+*.log
+*.out
+
+# Model checkpoints and outputs
+*.pth
+*.pt
+*.ckpt
+models/checkpoints/
+experiments/outputs/
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Development files
+notes/
+test_*.py
+*_test.py
+dev_*.py
+debug_*.py
+temp_*.py
+
+# Documentation artifacts
+*.pdf
+*.txt
+TESTING_*.md
+COMMIT_*.md
+*_COMPLETE*.md
+PHASE_*.md
+
+# Personal and sensitive information
+*.key
+*.pem
+*.crt
+config/secrets.yaml
+config/personal.yaml
+
+# Large files and binaries
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# OS generated files
+*.tmp
+*.temp
+*.swp
+*.lock
