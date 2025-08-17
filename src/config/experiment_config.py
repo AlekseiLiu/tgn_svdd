@@ -18,7 +18,7 @@ class TGNSVDDConfig:
     """Configuration parameters for TGN-SVDD experiments."""
     
     # Data settings
-    #data_split: str = 'cic_2017_monday_0_0_1'
+    data_split: str = 'cic_2017_monday_0_0_1'
     days_to_run: List[str] = field(default_factory=lambda: [
         'monday_friday_workinghours',
         'monday_thursday_workinghours', 
