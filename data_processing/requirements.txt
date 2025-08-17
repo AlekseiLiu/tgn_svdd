@@ -1,0 +1,9 @@
+#requirements for CIC-2017 data processing
+pandas
+numpy
+scikit-learn
+
+# Network flow processing
+nfstream
+
+

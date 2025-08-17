@@ -1,0 +1,9 @@
+# torch is installed via conda in install_main_env.sh to match CUDA; do not list here to avoid conflicts
+torch-geometric
+scikit-learn
+pandas
+numpy
+tqdm
+matplotlib
+seaborn
+scipy

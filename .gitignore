@@ -95,13 +95,6 @@ dev_*.py
 debug_*.py
 temp_*.py
 
-# Documentation artifacts
-*.pdf
-*.txt
-TESTING_*.md
-COMMIT_*.md
-*_COMPLETE*.md
-PHASE_*.md
 
 # Personal and sensitive information
 *.key
